@@ -1,0 +1,44 @@
+@font-face{
+    src: url(../fonts/FOT-Skip\ Std\ B.otf);
+    font-family: "P3-Font1";
+}
+@font-face{
+    src: url(../fonts/FOT-NewRodin\ Pro\ M.otf);
+    font-family: "P3-Font2";
+}
+@font-face{
+    src: url(../fonts/FOT-Rodin\ Pro\ B.otf);
+    font-family: "P3-Font3";
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.title{
+    background-color: brown;
+    img{
+        width: 75%;
+    }
+}
+
+.menu-btn-container{
+    padding-top: 25%;
+    float: right;
+    width: 50%;
+    height: fit-content;
+    background-color: aqua;
+    .menu-btn{
+        background-color: blue;
+        transition: 0.3s;
+        h2{
+            padding: 2%;
+        }
+        &:hover{
+            background-color: red;
+        }
+    }
+}
