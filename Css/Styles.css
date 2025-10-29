@@ -1,13 +1,13 @@
 @font-face{
-    src: url(../fonts/FOT-Skip\ Std\ B.otf);
+    src: url(/fonts/FOT-Skip\ Std\ B.otf);
     font-family: "P3-Font1";
 }
 @font-face{
-    src: url(../fonts/FOT-NewRodin\ Pro\ M.otf);
+    src: url(/fonts/FOT-NewRodin\ Pro\ M.otf);
     font-family: "P3-Font2";
 }
 @font-face{
-    src: url(../fonts/FOT-Rodin\ Pro\ B.otf);
+    src: url(/fonts/FOT-Rodin\ Pro\ B.otf);
     font-family: "P3-Font3";
 }
 *{
@@ -41,4 +41,5 @@ html{
             background-color: red;
         }
     }
+
 }
